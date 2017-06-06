@@ -19,7 +19,7 @@ class CppEthereum < Formula
   version '1.3.0'
 
   homepage 'http://cpp-ethereum.org'
-  url 'https://github.com/Genoil/cpp-ethereum.git', :branch => 'develop'
+  url 'https://github.com/Genoil/cpp-ethereum.git', :branch => 'master'
 
   devel do
 
