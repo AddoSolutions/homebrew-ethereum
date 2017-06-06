@@ -21,17 +21,6 @@ class CppEthereum < Formula
   homepage 'http://cpp-ethereum.org'
   url 'https://github.com/Genoil/cpp-ethereum.git', :branch => 'master'
 
-  devel do
-
-    if build.include? "successful"
-      version '1.3.0'
-      url 'https://github.com/Genoil/cpp-ethereum.git', :revision => '4943d3eeae865537e18c410e5e7d064825bf2711'
-    else
-      version '1.3.0'
-      url 'https://github.com/Genoil/cpp-ethereum.git', :branch => 'develop'
-    end
-  end
-
   option "without-evmjit", "Build without JIT (and its LLVM dependency)"
   option "with-debug", "Build with debug"
   option "with-vmtrace", "Build with VMTRACE"
