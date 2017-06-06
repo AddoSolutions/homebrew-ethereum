@@ -19,7 +19,7 @@ class CppEthereum < Formula
   version '1.3.0'
 
   homepage 'http://cpp-ethereum.org'
-  url 'https://github.com/ethereum/cpp-ethereum.git', :branch => 'develop'
+  url 'https://github.com/ethereum/cpp-ethereum.git', :branch => 'master'
 
   devel do
 
@@ -28,7 +28,7 @@ class CppEthereum < Formula
       url 'https://github.com/ethereum/cpp-ethereum.git', :revision => '4943d3eeae865537e18c410e5e7d064825bf2711'
     else
       version '1.3.0'
-      url 'https://github.com/ethereum/cpp-ethereum.git', :branch => 'develop'
+      url 'https://github.com/ethereum/cpp-ethereum.git', :branch => 'master'
     end
   end
 
